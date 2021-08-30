@@ -6,7 +6,7 @@
   "homepage": "https://annaprutnik.github.io/goit-js-hw-13-image-finder/",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-13-image-finder/",
+    "build": "parcel build src/index.html --public-url /goit-js-hw-13-image-finder/",
     "deploy": "gh-pages -d dist",
     "predeploy": "npm run build"
   },

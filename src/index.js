@@ -33,6 +33,7 @@ async function onCLickSearch(e) {
   states.searchValue = e.currentTarget.elements.query.value.trim();
   states.page = 1;
   loadMoreBtn.style.visibility = 'hidden';
+  observer.unobserve(loadMoreBtn);
   if (!states.searchValue) {
     galleryContainer.innerHTML = '';
     info({
